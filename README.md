@@ -17,7 +17,7 @@ services:
     ports:
       - 8080:80/tcp
     volumes:
-      - /path/to/app:/var/www/html
+      - /path/to/phpDir:/var/www/html
       - /path/to/games:/var/www/html/Games
 ```
 
